@@ -63,7 +63,11 @@ Enter the value and get the converted result instantly.
 ##  How It Works
 - Uses two functions:
   - `cm_to_inch(cm)`  
-  - `inch_to_cm(inch)`  
+  - `inch_to_cm(inch)`
+  Applied conversion formulas:
+
+   1 inch = 2.54 cm
+   1 cm = 0.3937 inch
 - Takes user input through a loop  
 - Converts values based on selected option  
 - Handles invalid input using try-except  
@@ -87,6 +91,15 @@ Enter value in cm: 10
 - Beginner-friendly project  
 
 ---
+
+## Tools Used
+Programming Language: Python
+Platform: Google Colab / IDLE
+Concepts: Functions, Input/Output, Conditional Statements
+
+## Outcome
+
+The program successfully converts values between centimeters and inches with accurate results, making it useful for quick and easy unit conversion.
 
 ##  Future Improvements
 - Add more unit conversions (kg, meter, etc.)  
